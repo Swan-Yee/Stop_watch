@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-center">
+            <div class="time">
+                <h1 class="hour">00</h1>
+                <sub>Hour</sub>
+                <div class="margin"></div>
+                <h1 class="minute">00</h1>
+                <sub>Minute</sub>
+                <div class="margin"></div>
+                <h1 class="second">00</h1>
+                <sub>Second</sub>
+                <div class="margin"></div>
+                <h1 class="miniSecond">000</h1>
+                <sub>miniSecond</sub>
+            </div>
+            <div class="space"></div>
+            <div class="btn-gp">
+                <button class="btn btn-stop" id="btn-stop" disabled>Stop</button>
+                <button class="btn btn-start" id="btn-start">Start</button>
+                <button class="btn btn-con" id="btn-con" disabled>Continue</button>
+                <button class="btn btn-pin" id="btn-pin" disabled>Pin</button>
+                <button class="btn btn-clear"  id="btn-clear" disabled>Clear</button>
+            </div>
+        </div>
+        <div class="container-bottom">
+            <!-- pin side -->
+            <div class="container-left">
+                <h2 class="ul-title">Pined Time</h2>
+                <ul class="pin-ul">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

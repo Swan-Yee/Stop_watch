@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.container-center {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: inset 0 0 3px grey;
+}
+
+.container-bottom {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-bottom .container-left {
+    padding: 30px;
+}
+
+div.time {
+    display: flex;
+}
+
+.margin{
+    margin: 5px;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+    text-shadow: 1px 1px grey;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn.btn-start {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.btn.btn-stop {
+    background-color: red;
+    color: #ffffff;
+}
+
+.btn.btn-pin {
+    background-color: #5bc0de;
+    color: #ffffff;
+}
+
+.btn.btn-clear {
+    background-color: orange;
+    color: #ffffff;
+}
+
+.btn.btn-con{
+    background-color: green;
+    color: #ffffff;
+}
+
+.btn:disabled{
+    opacity: 0.2;   
+    cursor: default;
+}
+
+.space {
+    margin: 10px;
+}
+
+li {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+ul#pin-ul {
+    color: green;
+}
+
+ul#stoped-time {
+    color: red;
+}
